@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { DialogModule } from 'primeng/dialog';
 import { OrdersRoutingModule } from './orders-routing.module';
 import { OrdersComponent } from './orders.component';
-import { DialogModule } from 'primeng/dialog/dialog';
+
 
 
 @NgModule({
